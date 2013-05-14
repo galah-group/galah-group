@@ -20,7 +20,7 @@ if [[ "$CURRENT_BRANCH" != "master" ]]; then
 fi
 
 # Build the site
-jekyll build
+jekyll build --config _config.production.yml,_config.yml
 
 # Move the site to a temporary directory
 TEMP_DIR=`mktemp -d`
