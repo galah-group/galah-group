@@ -1,2 +1,6 @@
 pygments: true
 url: http://localhost:4000
+exclude:
+ - utils
+ - LICENSE
+ - README.md
