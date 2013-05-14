@@ -70,25 +70,35 @@
 
 
     <section>
-      <article>
-  <h2 class='post_title'>Site Launch</h2>
-  <div class='post_author'>
-    Posted May  2, 2013 by John Sullivan
-  </div>
-  <p>This site will serve as a portal, as a dev blog and announcment site, and as a source of information for anyone looking into using our products themselves.</p>
+      <h2 id='what_is_galah'>What is Galah?</h2>
 
-<p>I am launching the website before everything is ready so it can immediately start acting as a portal to the various pieces of documentation we have scattered around the web. Please don&#8217;t be alarmed by the lack of content in the site itself, more will be added gradually over time.</p>
+<p>Galah is an automated grading system geared towards processing computer programming assignments.</p>
 
-<p>Below is a rough timeline for what I plan to have us do to the site.</p>
+<p>Professors are responsible for creating test harnesses for their assignments. Aside from that Galah does the rest of the work: running those tests inside of secure Virtual Machines, consolodating results into a database, and providing an interface for students and teachers to see the results of the testing.</p>
 
-<ol>
-<li>Create mailing lists (probably on Google Groups) for each of the projects.</li>
+<h2 id='can_i_see_it'>Can I see it?</h2>
 
-<li>Create a slideshow of screenshots on Galah&#8217;s about page.</li>
+<p>We don&#8217;t have a demo server set up right now, not because Galah isn&#8217;t ready to be deployed (in fact it is being used in production as you&#8217;re reading this), rather we don&#8217;t have one because we haven&#8217;t gotten to bringing one up. Some screenshots will be put up one of these days.</p>
 
-<li>Create an interactive version of the GG-GPL that lets users easily change the number of users allowed without a paid license.</li>
-</ol>
-</article>
+<h2 id='what_makes_it_special'>What makes it special?</h2>
+
+<p>Galah aims to set itself apart from similar software suites by being language agnostic, scalable, secure, and easy to use.</p>
+
+<h3 id='language_agnostic'>Language Agnostic</h3>
+
+<p>Galah does not care what a student&#8217;s submission is. It could be in Java, C++, Python, Lisp, or it could even be an English essay or a piece of artwork and Galah will diligently test it with the instructor&#8217;s test harnesses. This behavior allows any school to take advantage of what Galah has to offer no matter what technologies they teach to their students.</p>
+
+<h3 id='scalable'>Scalable</h3>
+
+<p>Galah is a distributed system, and though it is very fast while running on one machine, if a time comes when you want to add more hardware to improve performance, you won&#8217;t have any problems.</p>
+
+<h3 id='secure'>Secure</h3>
+
+<p>Student&#8217;s code cannot bring down Galah under anything except the most extreme circumstances (and we are not actually aware of any such circumstances). Furthermore, student&#8217;s grades, submissions, and all other data are secured away from prying eyes.</p>
+
+<h3 id='easy_to_use'>Easy to Use</h3>
+
+<p>Students&#8217; have no problem using Galah because its interface is simple and straightforward. Teachers&#8217; use Galah through a program called the API Client which gives anyone who is comfortable on the command line a very friendly, scriptable interface.</p>
 
       <hr>
       <div style="float:right" class="button-group minor-group">
