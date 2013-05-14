@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head>
+  {% include head.html %}
+</head>
+<body>
+  <div class="wrapper">
+    {% include header.html %}
+
+    <section>
+      {{ content }}
+
+      <hr>
+      {% include footer.html %}
+    </section>
+  </div>
+  <script src="javascripts/scale.fix.js"></script>
+  <script>
+  links = document.getElementsByTagName("a")
+  for (i in links) {
+    if (location.pathname == links[i].pathname &&
+        links[i].className.indexOf("primary_exempt") == -1) {
+      links[i].className += " primary"
+    }
+  }
+  </script>
+</body>
+</html>
