@@ -15,8 +15,8 @@ cd $DIR/..
 
 # Ensure we're on master.
 CURRENT_BRANCH=`what_branch`
-if [[ "$CURRENT_BRANCH" != "master" ]]; then
-	git checkout master
+if [[ "$CURRENT_BRANCH" != "master-source" ]]; then
+	git checkout master-source
 fi
 
 # Build the site
@@ -27,8 +27,8 @@ TEMP_DIR=`mktemp -d`
 mv ./_site/* "$TEMP_DIR"/
 rmdir ./_site
 
-# Tranfer the site into the gh-pages branch.
-git checkout gh-pages
+# Tranfer the site into the master branch.
+git checkout master
 rm -rf *
 mv -f "$TEMP_DIR"/* ./
 
