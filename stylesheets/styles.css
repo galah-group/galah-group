@@ -163,12 +163,11 @@ ul.credits {
   color:#777;
 }
 
-div.project-block.highlight {
-
+footer > div.button-group {
+  float:right;
 }
 
 @media print, screen and (max-width: 960px) {
-
   div.wrapper {
     width:auto;
     margin:0;
@@ -224,6 +223,10 @@ div.project-block.highlight {
   div.project-block {
     display: block;
     width: auto;
+  }
+
+  footer > div.button-group {
+    float:none;
   }
 }
 
