@@ -24,12 +24,12 @@ jekyll build
 
 # Move the site to a temporary directory
 TEMP_DIR=`mktemp -d`
-mv ./_site/* $TEMP_DIR/
+mv ./_site/* "$TEMP_DIR"/
 rmdir ./_site
 
 # Tranfer the site into the gh-pages branch.
 git checkout gh-pages
-mv -f ./_site/* ./
+mv -f "$TEMP_DIR"/* ./
 
 # Disable the printing out of every command, we're done with the bulk of the
 # script now.
