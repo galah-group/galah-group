@@ -32,6 +32,9 @@ git checkout master
 rm -rf *
 mv -f "$TEMP_DIR"/* ./
 
+# Add the CNAME file
+echo galahgroup.com > CNAME
+
 # Disable the printing out of every command, we're done with the bulk of the
 # script now.
 set +x
