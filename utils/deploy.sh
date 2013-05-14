@@ -29,6 +29,7 @@ rmdir ./_site
 
 # Tranfer the site into the gh-pages branch.
 git checkout gh-pages
+rm -rf *
 mv -f "$TEMP_DIR"/* ./
 
 # Disable the printing out of every command, we're done with the bulk of the
