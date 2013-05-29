@@ -11,15 +11,16 @@ The GG-GPL preserves some of the ideals of [Free Software](http://www.gnu.org/ph
 
 ## Summary of Terms
 
-These terms are non-binding.
+This summary is not a part of the license, and is only meant to be a convenient human readable summary of the license. That being said, it has no legal merit and the license text itself takes precedance over this summary in all cases.
 
 ### You are free to...
 
- * view, share, and distribute the source code.
- * create deriavitive works.
- * run the program on your own computer.
+ * view, share, and distribute the source code freely.
+ * modify the source code and create deriavitive works.
+ * run the program.
 
 ### With the restriction that...
 
  * you must license any deriavitive works under the same license.
  * you cannot deploy the work such that more than 15 users have access to it.
+ * you must provide a way for users who interact with the program a way to get the source code.
