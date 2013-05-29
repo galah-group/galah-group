@@ -5,6 +5,8 @@ title: About Galah
 
 # Galah Group General Public License
 
+<a href="{{ site.url }}/gg-gpl/text.html" class="big button standalone-button">Read the License Text</a>
+
 The Galah Group General Public License is a deriavitive of the [GNU AGPLv3](http://www.gnu.org/licenses/agpl.html) (which we created with permission from the [Free Software Foundation](http://fsf.org/)).
 
 The GG-GPL preserves some of the ideals of [Free Software](http://www.gnu.org/philosophy/free-sw.html) that it inherited from the AGPL and [Open Source](http://opensource.org/osd) but is **decidedly not a license of either**. There is not an accepted name for the category of licenses that the GG-GPL falls under, however, you may refer to it as "commercial open source" if necessary.
