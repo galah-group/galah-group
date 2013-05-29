@@ -35,8 +35,8 @@
       <p>An automated grading system geared towards processing computer programming assignments.</p>
 
       <div class="button-group">
-          <a href="/pages/galah/about.html" class="button ">About</a>
-          <a href="/pages/galah/deployments.html" class="button ">Deployments</a>
+          <a href="/galah/" class="button ">About</a>
+          <a href="/galah/deployments.html" class="button ">Deployments</a>
           <a href="https://github.com/galah-group/galah" class="button">Source</a>
       </div>
     </div>
@@ -47,7 +47,7 @@
       <p>A command line utility used for instructor-level and administrative actions for Galah.</p>
 
       <div class="button-group">
-          <a href="/pages/api/about.html" class="button">About</a>
+          <a href="/api/" class="button">About</a>
           <a href="https://github.com/galah-group/galah-apiclient/wiki" class="button primary_exempt">Docs</a>
           <a href="https://groups.google.com/d/forum/galah-api-client" class="button primary_exempt">Q&amp;A</a>
           <a href="https://github.com/galah-group/galah-apiclient" class="button">Source</a>
@@ -62,29 +62,62 @@
       <p>A Python framework used to create test harnesses that automatically grade computer programming assignments.</p>
 
       <div class="button-group">
-          <a href="/pages/interact/about.html" class="button">About</a>
+          <a href="/interact/" class="button">About</a>
           <a href="http://galah-interact.readthedocs.org" class="button primary_exempt">Docs</a>
           <a href="https://groups.google.com/d/forum/galah-interact" class="button primary_exempt">Q&amp;A</a>
           <a href="https://github.com/galah-group/galah-interact-python" class="button">Source</a>
       </div>
     </div>
 
-    
+    <div class="project-block">
+      <h2>GG-GPL</h2>
+
+      <p>The Galah Group General Public License is a hybrid commercial/open-source license aimed at server software.</p>
+
+      <div class="button-group">
+          <a href="/gg-gpl/" class="button">About</a>
+          <a href="/gg-gpl/text.html" class="button">Text</a>
+      </div>
+    </div>
   </div>
 </header>
 
 
     <section>
-      <h1 id='galah_group_general_public_license'>Galah Group General Public License</h1>
+      <h2 id='what_is_galah'>What is Galah?</h2>
 
-<p>The Galah Group General Public License is a deriavitive of the <a href='http://www.gnu.org/licenses/agpl.html'>GNU AGPLv3</a> (which we created with permission from the <a href='http://fsf.org/'>Free Software Foundation</a>).</p>
+<p>Galah is an automated grading system geared towards processing computer programming assignments.</p>
 
-<p>The GG-GPL preserves some of the ideals of <a href='http://www.gnu.org/philosophy/free-sw.html'>Free Software</a> that it inherited from the AGPL and <a href='http://opensource.org/osd'>Open Source</a> but is <strong>decidedly not a license of either</strong>. I have given the term &#8220;commercial open source&#8221; to the license because that is the most concise few word description of it, but it is not truly an Open Source license, so please do not confuse it to be one.</p>
+<p>Professors are responsible for creating test harnesses for their assignments. Aside from that Galah does the rest of the work: running those tests inside of secure Virtual Machines, consolodating results into a database, and providing an interface for students and teachers to see the results of the testing.</p>
+
+<h2 id='can_i_see_it'>Can I see it?</h2>
+
+<p>We don&#8217;t have a demo server set up right now, not because Galah isn&#8217;t ready to be deployed (in fact it is being used in production as you&#8217;re reading this), rather we don&#8217;t have one because we haven&#8217;t gotten to bringing one up. Some screenshots will be put up one of these days.</p>
+
+<h2 id='what_makes_it_special'>What makes it special?</h2>
+
+<p>Galah aims to set itself apart from similar software suites by being language agnostic, scalable, secure, and easy to use.</p>
+
+<h3 id='language_agnostic'>Language Agnostic</h3>
+
+<p>Galah does not care what a student&#8217;s submission is. It could be in Java, C++, Python, Lisp, or it could even be an English essay or a piece of artwork and Galah will diligently test it with the instructor&#8217;s test harnesses. This behavior allows any school to take advantage of what Galah has to offer no matter what technologies they teach to their students.</p>
+
+<h3 id='scalable'>Scalable</h3>
+
+<p>Galah is a distributed system, and though it is very fast while running on one machine, if a time comes when you want to add more hardware to improve performance, you won&#8217;t have any problems.</p>
+
+<h3 id='secure'>Secure</h3>
+
+<p>Student&#8217;s code cannot bring down Galah under anything except the most extreme circumstances (and we are not actually aware of any such circumstances). Furthermore, student&#8217;s grades, submissions, and all other data are secured away from prying eyes.</p>
+
+<h3 id='easy_to_use'>Easy to Use</h3>
+
+<p>Students&#8217; have no problem using Galah because its interface is simple and straightforward. Teachers&#8217; use Galah through a program called the API Client which gives anyone who is comfortable on the command line a very friendly, scriptable interface.</p>
 
       <hr>
       <footer>
 	<div class="button-group minor-group">
-	  <a href="/pages/aboutus.html" class="button">About Us</a>
+	  <a href="/aboutus.html" class="button">About Us</a>
 	  <a href="mailto:support@galahgroup.com" class="button">Contact</a>
 	</div>
 
